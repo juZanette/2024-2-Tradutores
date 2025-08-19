@@ -121,9 +121,11 @@ javac Main.java
 java Main
 ```
 
-**Resultado esperado:**
+**Resultado esperado e tratamento de erros:**
 - ✅ **Sucesso**: Nenhuma mensagem (entrada válida)
-- ❌ **Erro**: Mensagem descrevendo o problema encontrado
+- ❌ **Erro**: As mensagens de erro são exibidas no console, indicando o tipo e a localização do problema.
+   - **Erros Léxicos**: Caracteres ou tokens não reconhecidos
+   - **Erros Sintáticos**: Estruturas que não seguem a gramática definida
 
 ## 📖 Exemplos de Uso
 
@@ -161,13 +163,11 @@ while (i < 10) {  // Falta fechamento
 <img width="780" height="388" alt="image" src="https://github.com/user-attachments/assets/55f71259-42e9-4000-822a-ff667ee2c4fe" />
 
 
-## 🐛 Tratamento de Erros
 
-O analisador detecta e reporta diversos tipos de erros:
 
-- **Erros Léxicos**: Caracteres ou tokens não reconhecidos
-- **Erros Sintáticos**: Estruturas que não seguem a gramática definida
 
-As mensagens de erro são exibidas no console, indicando o tipo e a localização do problema.
+
+
+
 
 ---

@@ -51,10 +51,10 @@ Operador_relacional = "==" | "!=" | "<" | ">" | "<=" | ">="
 
 ## ⚙️ Pré-requisitos
 
-- Java JDK 8 ou superior;
-- JFlex (versão mais recente);
-- CUP (versão mais recente);
-- Windows (para seguir as instruções de configuração).
+- Java JDK 8 ou superior
+- JFlex (versão mais recente)
+- CUP (versão mais recente)
+- Windows (para seguir as instruções de configuração)
 
 ## 🔧 Configuração do Ambiente
 
@@ -64,7 +64,7 @@ Operador_relacional = "==" | "!=" | "<" | ">" | "<=" | ">="
 2. Descompacte o arquivo `.zip` em uma pasta (ex: `C:\Compiladores\JFlex`)
 3. Clique com o botão direito sobre "Este Computador" ou "Meu Computador" e escolha "Propriedades"
 4. Selecione "Configurações avançadas do sistema"
-5. Na aba "Avançado", clique em "Variáveis de ambiente".
+5. Na aba "Avançado", clique em "Variáveis de ambiente"
 6. Configure as variáveis de ambiente:
    - **PATH**: Adicione `C:\Compiladores\JFlex\bin`
    - **CLASSPATH**: Adicione `C:\Compiladores\JFlex`
@@ -86,7 +86,7 @@ Se instalado corretamente, será exibida a tela de confirmação do JFlex.
 2. Descompacte o arquivo `.zip` em uma pasta (ex: `C:\CUP`)
 3. Clique com o botão direito sobre "Este Computador" ou "Meu Computador" e escolha "Propriedades"
 4. Selecione "Configurações avançadas do sistema"
-5. Na aba "Avançado", clique em "Variáveis de ambiente".
+5. Na aba "Avançado", clique em "Variáveis de ambiente"
 4. Configure as variáveis de ambiente:
    - **PATH**: Adicione `%CUP_HOME%\bin`
    - **CLASSPATH**: Adicione `C:\Program Files\CUP`
@@ -123,7 +123,7 @@ java Main
 
 **Resultado esperado e tratamento de erros:**
 - ✅ **Sucesso**: Nenhuma mensagem (entrada válida)
-- ❌ **Erro**: As mensagens de erro são exibidas no console, indicando o tipo e a localização do problema.
+- ❌ **Erro**: As mensagens de erro são exibidas no console, indicando o tipo e a localização do problema
    - **Erros Léxicos**: Caracteres ou tokens não reconhecidos
    - **Erros Sintáticos**: Estruturas que não seguem a gramática definida
 

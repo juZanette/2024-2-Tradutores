@@ -60,18 +60,11 @@ Operador_relacional = "==" | "!=" | "<" | ">" | "<=" | ">="
 
 ### 1. Instalação do JFlex
 
-A seguir, é descrito um passo a passo com a configuração do ambiente necessária para a execução do trabalho desenvolvido para a disciplina de Tradutores, utilizando as ferramentas JFlex + CUP:
-
-   1.	Baixar a versão mais atual do JFlex em: https://jflex.de/download.html.
-   2.	Descompactar o arquivo .zip em uma pasta de sua preferência, por exemplo: "C:\Compiladores\JFlex"
-   3.	Adicionar o diretório do JFlex ao caminho de busca do sistema.
-   4.	Clicar com o botão direito sobre "Este Computador" ou "Meu Computador" e escolher "Propriedades".
-   5.	Selecionar "Configurações avançadas do sistema".
-   6.	Na aba "Avançado", clicar em "Variáveis de ambiente".
-   7.	Na seção "Variáveis do sistema", localizar a variável $PATH e clicar em "Editar".
-   8.	Clicar em "Novo" e adicionar o caminho completo da pasta "JFlex" → Exemplo: "C:\ Compiladores\JFlex\bin"
-   9.	Em seguida, localizar a variável $CLASSPATH e clicar em "Editar".
-   10.	Clicar em "Novo" e adicionar o caminho completo da pasta "JFlex" → Exemplo: "C:\Compiladores\JFlex"
+1. Baixe a versão mais atual do JFlex em: https://jflex.de/download.html
+2. Descompacte o arquivo `.zip` em uma pasta (ex: `C:\Compiladores\JFlex`)
+3. Configure as variáveis de ambiente:
+   - **PATH**: Adicione `C:\Compiladores\JFlex\bin`
+   - **CLASSPATH**: Adicione `C:\Compiladores\JFlex`
 
 <img width="829" height="417" alt="image" src="https://github.com/user-attachments/assets/5abe5dfd-aeb5-4b8f-9a54-8e79ad6dc28c" />
 
@@ -86,16 +79,11 @@ Se instalado corretamente, será exibida a tela de confirmação do JFlex.
 
 ### 2. Instalação do CUP
 
-1.	Baixar a versão mais atual do CUP em: http://www2.cs.tum.edu/projects/cup/.
-2.	Descompactar o arquivo .zip em uma pasta de sua preferência, por exemplo: "C:\CUP"
-3.	Adicionar o diretório do CUP ao caminho de busca do sistema.
-4.	Clicar com o botão direito sobre "Este Computador" ou "Meu Computador" e escolher "Propriedades".
-5.	Selecionar "Configurações avançadas do sistema".
-6.	Na aba "Avançado", clicar em "Variáveis de ambiente".
-7.	Na seção "Variáveis do sistema", localizar a variável $PATH e clicar em "Editar".
-8.	Clicar em "Novo" e adicionar o caminho completo da pasta "CUP" → Exemplo: "%CUP_HOME%\bin "
-9.	Em seguida, localizar a variável $CLASSPATH e clicar em "Editar".
-10.	Clicar em "Novo" e adicionar o caminho completo da pasta "CUP" → Exemplo: "C:\Program Files\CUP"
+1. Baixe a versão mais atual do CUP em: http://www2.cs.tum.edu/projects/cup/
+2. Descompacte o arquivo `.zip` em uma pasta (ex: `C:\CUP`)
+3. Configure as variáveis de ambiente:
+   - **PATH**: Adicione `%CUP_HOME%\bin`
+   - **CLASSPATH**: Adicione `C:\Program Files\CUP`
 
 <img width="945" height="501" alt="image" src="https://github.com/user-attachments/assets/9ef36455-a69d-4ef2-97e4-80cffe74b735" />
 

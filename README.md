@@ -62,7 +62,10 @@ Operador_relacional = "==" | "!=" | "<" | ">" | "<=" | ">="
 
 1. Baixe a versão mais atual do JFlex em: https://jflex.de/download.html
 2. Descompacte o arquivo `.zip` em uma pasta (ex: `C:\Compiladores\JFlex`)
-3. Configure as variáveis de ambiente:
+3. Clique com o botão direito sobre "Este Computador" ou "Meu Computador" e escolha "Propriedades"
+4. Selecione "Configurações avançadas do sistema"
+5. Na aba "Avançado", clique em "Variáveis de ambiente".
+6. Configure as variáveis de ambiente:
    - **PATH**: Adicione `C:\Compiladores\JFlex\bin`
    - **CLASSPATH**: Adicione `C:\Compiladores\JFlex`
 
@@ -81,7 +84,10 @@ Se instalado corretamente, será exibida a tela de confirmação do JFlex.
 
 1. Baixe a versão mais atual do CUP em: http://www2.cs.tum.edu/projects/cup/
 2. Descompacte o arquivo `.zip` em uma pasta (ex: `C:\CUP`)
-3. Configure as variáveis de ambiente:
+3. Clique com o botão direito sobre "Este Computador" ou "Meu Computador" e escolha "Propriedades"
+4. Selecione "Configurações avançadas do sistema"
+5. Na aba "Avançado", clique em "Variáveis de ambiente".
+4. Configure as variáveis de ambiente:
    - **PATH**: Adicione `%CUP_HOME%\bin`
    - **CLASSPATH**: Adicione `C:\Program Files\CUP`
 

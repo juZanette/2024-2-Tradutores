@@ -131,31 +131,11 @@ java Main
 
 ### ✅ Entradas Válidas
 
-```javascript
-// Exemplo 1: Comando if-else
-if (x == 5) { y = 10; } else { z = 20; }
-
-// Exemplo 2: Loop while
-while (i < 10) { i += 1; }
-
-// Exemplo 3: Operações matemáticas
-resultado = a + b;
-```
 <img width="938" height="539" alt="image" src="https://github.com/user-attachments/assets/7c3c8cbc-a8f7-428f-9bcb-2a992e3561c0" />
 
 
 ### ❌ Entradas Inválidas
 
-```javascript
-// Erro: Sintaxe incorreta
-if x == 5 { y = 10; }  // Faltam parênteses
-
-// Erro: Operador inválido
-x === y;  // Operador não reconhecido
-
-// Erro: Estrutura incompleta
-while (i < 10) {  // Falta fechamento
-```
 <img width="998" height="305" alt="image" src="https://github.com/user-attachments/assets/65ecbd32-b1b6-4406-befc-6f76b92dd4d8" />
 
 <img width="984" height="288" alt="image" src="https://github.com/user-attachments/assets/6c0c7945-7085-4383-97d1-22ad59aef1b2" />

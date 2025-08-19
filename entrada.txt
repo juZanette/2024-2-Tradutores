@@ -1,0 +1,1 @@
+if(variavel1>10){variavel1=10;}

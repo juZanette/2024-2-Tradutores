@@ -1,0 +1,31 @@
+import java_cup.runtime.*;
+import java.lang.Integer;
+
+terminal VAR, PTVIRG, CON, AT, MAT, IDENT, IF, AC, FC, AP, FP, WHILE, ELSE;
+
+non terminal variavel, operacao, linha, condicao, mat, codigo, opif, cond, comando, opwhile, while, else, if;
+
+codigo::= opif;
+
+opif::= while | if | comando;
+
+if::= IF AP CON FP AC comando FC else | IF AP CON FP AC comando FC;
+
+else::= ELSE AC comando FC;
+
+while::=WHILE AP CON FP AC comando FC;
+
+comando::= operacao PTVIRG;
+
+operacao::= VAR | AT;
+
+
+
+
+
+
+
+
+
+
+

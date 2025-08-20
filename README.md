@@ -1,5 +1,7 @@
 # Analisador Léxico e Sintático
 
+## Autores: Júlia Faccio Zanette e Luiz Ariano Martins Silva
+
 ## 🎯 Descrição
 
 Este projeto implementa um analisador léxico e sintático utilizando as ferramentas **JFlex** e **CUP** para processar comandos condicionais e operações matemáticas básicas.
